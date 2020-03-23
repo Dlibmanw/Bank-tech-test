@@ -12,4 +12,8 @@ class Account
     @balance = @balance + sum
   end
 
+  def withdraw(sum)
+    @balance = @balance - sum
+  end
+
 end
